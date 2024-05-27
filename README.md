@@ -1,7 +1,9 @@
 # Fairness_in_AI
 Fairness in AI
 
-1. Bias in Data and Prediction
-   Investigation of biases in data and their impact on machine learning models, using the Adult and German Credit datasets. Implementation of statistical parity and equalized opportunity metrics,    preprocessing data, and analyzing biases to understand how protected features like gender and age affect outcomes. Training models to assess prediction fairness and accuracy, and exploring        methods to mitigate bias, such as excluding protected features and using data augmentation, to evaluate their effectiveness in creating fairer models. <br> <br>
-3. Exploring bias in LLMs
-4. Bias in Networks
+1. Bias in Data and Prediction <br>
+   Investigation of biases in data and their impact on machine learning models, using the Adult and German Credit datasets. Implementation of statistical parity and equalized opportunity            metrics, preprocessing data, and analyzing biases to understand how protected features like gender and age affect outcomes. Training models to assess prediction fairness and accuracy, and        exploring methods to mitigate bias, such as excluding protected features and using data augmentation, to evaluate their effectiveness in creating fairer models. <br> <br>
+2. Exploring bias in LLMs <br>
+   Investigation of gender biases in large language models (e.g., ChatGPT) and multimodal generative models (e.g., Stable Diffusion). Tasks include exploring gender bias in AI-generated text        through anaphora resolution prompts, analyzing the correlation between pronoun usage and human perceptions of gendered occupations, and examining gender bias in AI-generated images for           different occupations. Additionally, analysis of gender bias in generative images is conducted by comparing AI-generated gender distributions with real-life data from the Bureau of Labor         Statistics, following a methodology similar to Bloomberg's analysis. <br> <br>
+3. Bias in Networks <br>
+   Investigation of network structures and link prediction in the friendship networks of UChicago and Caltech. Tasks include calculating and comparing centrality scores (PageRank, betweenness,      degree, and eigenvector) by gender, identifying correlations between these centrality scores, and examining the relationship between clustering coefficients and centrality scores. For link       prediction on the Caltech network, the Adamic-Adar and Jaccard Coefficient algorithms are used, with performance evaluated based on average precision@k. Analysis focuses on assessing             algorithmic bias by comparing performance across different genders to determine fairness and precision. <br> <br>
